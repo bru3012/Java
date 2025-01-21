@@ -1,0 +1,19 @@
+//SOBRE TIPOS PRIMITIVOS
+public class Aula_2 {
+
+        public static void main(String[] args){
+
+            int idade = 27;
+            double salarioMensal = 1400.00;
+            char genero = 'M';
+            boolean estudando = true;
+            System.out.println("idade "+ idade );
+            System.out.println("salario " + salarioMensal );
+            System.out.println("genero " + genero );
+            System.out.println("estudando? " + estudando );
+
+    }
+
+
+
+}
