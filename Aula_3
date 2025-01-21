@@ -1,0 +1,28 @@
+//Operadores aritmeticos
+public class Aula_3 {
+    public static void main(String[] args){
+        double pao = 9.50;
+        double queijo = 7.00;
+        double acucar = 1.00;
+        double desconto =5.00;
+        int totalDiasMes =30;
+
+        double valorTotal = pao + queijo + acucar;
+        double valorTotalComDesconto = valorTotal - desconto;
+        double valorDividido = valorTotal / 2;
+        double valorMensal = valorTotalComDesconto * totalDiasMes;
+        //Adição
+        System.out.println("Valor Total "+ valorTotal);
+        //Subtração
+        System.out.println("Valor Total com desconto "+ valorTotalComDesconto);
+        //Divisão
+        System.out.println("Valor Total dividido por 2 pessoas "+ valorDividido);
+        //Multiplicação
+        System.out.println("Valor Total por mes "+ valorMensal);
+
+
+
+
+
+    }
+}
