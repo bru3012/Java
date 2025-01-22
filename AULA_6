@@ -1,0 +1,27 @@
+public class aula_6 {
+    public static void main(String[] args){
+        //conversão implicita:
+        int numero = 10;
+        double d = numero;
+
+        //explicita
+        double d2 = 10.5;
+        int int2 = (int) d2;
+        System.out.println(d);
+        System.out.println(int2);
+        // de numero para string
+        Integer numeroInteger = 10;
+        String numeroString = numeroInteger.toString();
+        String numeroStringDois ="1234";
+        Integer numeroConvertido = Integer.parseInt(numeroStringDois);
+        System.out.println(numeroInteger);
+        System.out.println(numeroString);
+        System.out.println(numeroStringDois);
+        System.out.println(numeroConvertido);
+
+
+
+
+
+            }
+}
