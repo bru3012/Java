@@ -1,0 +1,17 @@
+//Operadores comparativos
+public class Aula_7 {
+    public static void main(String[] args){
+        int pao = 10;
+        int acucar = 20;
+        //comparativos
+        System.out.println(pao == acucar);
+        System.out.println(pao != acucar);
+        System.out.println(pao > acucar);
+        System.out.println(pao < acucar);
+        System.out.println(pao >= acucar);
+        System.out.println(pao <= acucar);
+
+
+
+    }
+}
