@@ -1,0 +1,18 @@
+import java.util.Locale;
+
+public class aula_4 {
+    public static void main(String[] args){
+        String nome = "Bruno";
+        String nomeDois = "Matheus";
+        //tamanho da variavel
+        int tamanhoString = nome.length();
+        //comparar
+        boolean saoIguais = nome.equals(nomeDois);
+        //maiusculas
+        System.out.println(saoIguais);
+        System.out.println("Olá "  + nome.toUpperCase() + " seu nome tem " + tamanhoString +" caracteres" );
+        //minusculas
+        System.out.println("Olá "  + nome.toLowerCase(Locale.ROOT) + " seu nome tem " + tamanhoString +" caracteres" );
+
+    }
+}
